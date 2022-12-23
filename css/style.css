@@ -1,0 +1,208 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+body{
+    background-color: #f7f7f7;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.balance{
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
+.balance h4{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#balanceAmount{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.inc-exp-container {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+
+  .inc-exp-container > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .inc-exp-container > div:first-of-type {
+    border-right: 1px solid #dedede;
+  }
+
+  
+.money {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+  }
+  
+  .money.plus {
+    color: #2ecc71;
+  }
+  
+  .money.minus {
+    color: #c0392b;
+  }
+
+  .inc, .bal{
+    padding: 0 30px;
+  }
+  
+  .inc h4, .bal h4{
+    text-transform: uppercase;
+  }
+
+  .history{
+    margin-top: 1em;
+  }
+
+  hr{
+    width: 315px;
+    margin-top: 5px;
+  }
+
+  .items-container{
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px 0;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    /* max-width: 230px; */
+    position: relative;
+  }
+
+.align-content{
+    display: flex;
+    overflow-x: scroll;
+    width: 170px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.itemCost{
+    border: 1px solid #000;
+    padding: 10px;
+    margin-right: 10px;
+    max-width: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #57ce9a;
+    border: none;
+    color: #fff;
+    overflow-x: scroll;
+}
+
+.green{
+    background-color: #57ce9a;
+}
+
+.red{
+    background-color: #c0392b;
+}
+
+.submit{
+    margin-top: 1em;
+    padding: 10px 1em;
+    width: 100%;
+    max-width: 350px;
+    border: none;
+    background-color: #9c88ff;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.text{
+    margin-top: 1em;
+}
+
+.itemName, .itemAmount{
+    padding: 7px;
+    width: 320px;
+    max-width: 100%;
+    outline: none;
+    margin-top: 10px;
+    display: flex;
+}
+
+.text p{
+    font-size: 14px;
+}
+
+.amount{
+    margin-top: 5px;
+}
+
+.black{
+  color: #000;
+}
+
+.mark{
+  font-size: 1.2rem;
+  display: flex;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: #c0392b;
+}
+
+.test{
+  display: flex;
+}
+
+.NA{
+  background-color: #bbc6c8;
+}
+
+.exp{
+  background-color: #c0392b;
+}
