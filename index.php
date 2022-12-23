@@ -62,7 +62,7 @@
                                 </div>';
                 }
 
-                    $sql = "select sum(price), ABS(price) from itemstb where price < 0";
+                    $sql = "select sum(price) from itemstb where price < 0";
                     $result = mysqli_query($conn, $sql);
 
                     if(mysqli_num_rows($result) > 0){
